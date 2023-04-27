@@ -10,7 +10,7 @@
 	<h1>Operaciones Matematicas</h1>
 	<form action="acciones.php" method="post">
 		<label>Ingrese su nombre:</label>
-		<input type="text" name="nombre" required><br>
+		<input type="text" name="nombre" required pattern="^[a-zA-Z]+$"><br>
 		<label>Seleccione una operación:</label><br>
 		<select name="opcion" required>
         <option value="">Seleccione...</option>
