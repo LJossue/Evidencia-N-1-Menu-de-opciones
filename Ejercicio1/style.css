@@ -1,0 +1,28 @@
+input, .divmenu, select{
+    border-radius: 20px;
+    border: 2px green solid;
+}
+h1{
+color: green;
+
+}
+.divmenu{
+    background-color: gray;
+    margin: 0 600px 0 600px;
+    box-shadow: 20px 30px 30px  black;
+}
+#boton{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+select{
+    display:inline;
+}
+.inputs{
+    display: flex;
+}
+body{
+    background-image: url(background.webp);
+}
